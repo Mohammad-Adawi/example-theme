@@ -13,6 +13,7 @@
       }
     ?>
   </title>
+  <?php wp_head(); // All WP Styles, scripts, meta, etc, will output here ?>
 </head>
 <body>
   <h1>

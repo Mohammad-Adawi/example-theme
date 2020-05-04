@@ -5,7 +5,11 @@
         <h2><?php the_title(); ?></h2>
         <?php the_content(); // Output HTML-formatted content. ?>
       </article>
-      <nav><a href="<?php echo site_url(); ?>"> Go Back</a></nav>
+      <nav>
+        <a href="<?php echo site_url(); ?>">
+          Go Back
+        </a>
+      </nav>
     <?php endwhile; ?>
   <?php endif; ?>
 <?php get_footer();

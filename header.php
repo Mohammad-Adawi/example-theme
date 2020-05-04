@@ -26,3 +26,11 @@
       }
     ?>
   </h1>
+  <nav>
+      <h2>Website Navigation (Main Menu)</h2>
+      <?php
+      // Output 'Main Menu'.
+       wp_nav_menu( array( 
+          'theme_location' => 'main_menu' ) ); 
+     ?>
+  </nav>
